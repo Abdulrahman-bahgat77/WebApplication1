@@ -11,7 +11,7 @@ namespace WebApplication1
             builder.Services.AddControllers();
             builder.Services.AddSingleton<LandmarkService>();
 
-            builder.Services.AddControllers();
+          /////
            
             builder.Services.AddEndpointsApiExplorer();
             builder.Services.AddSwaggerGen();
